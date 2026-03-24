@@ -6,9 +6,9 @@ def test_banana2():
     from email.mime.text import MIMEText
     from email.utils import formataddr
 
-    my_sender = '1371175273@qq.com'  # 填写发信人的邮箱账号
-    my_pass = 'fjnsqbgsxcwbigie'  # 发件人邮箱授权码
-    my_user = '1371175273@qq.com'  # 收件人邮箱账号
+    my_sender = ''  # 填写发信人的邮箱账号
+    my_pass = ''  # 发件人邮箱授权码
+    my_user = ''  # 收件人邮箱账号
 
     try:
         # 读取/etc/passwd内容
